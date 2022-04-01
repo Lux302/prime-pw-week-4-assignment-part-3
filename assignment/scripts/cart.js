@@ -81,3 +81,27 @@ console.log(bigBasket);
 
 
 console.log(`__Using Array built-in functions!__`);
+
+
+let cart = [`cheese`,`milk`,`eggs`,`tea`,`coffee`,`bread`,`butter`];
+
+
+function removeItem(item, array) {
+    let i = array.indexOf(item);
+    if (i > -1) {
+      array.splice(i, 1);
+return item    
+    }else{
+         return null
+ }  
+}
+
+
+console.log(cart);
+console.log(cart.length);
+
+console.log(removeItem(`tea`,cart));
+
+console.log(cart.length);
+console.log(cart)
+
