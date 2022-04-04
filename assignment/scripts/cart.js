@@ -105,3 +105,4 @@ console.log(removeItem(`tea`,cart));
 console.log(cart.length);
 console.log(cart)
 
+
